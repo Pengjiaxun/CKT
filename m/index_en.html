@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shenzhen ChengKeTai Electronics co.,LTD</title>
+    <meta charset="utf-8">
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="icon" href="../img/logo.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/frozenui-1.3.0/css/frozen.css">
+</head>
+<body>
+    <header>
+        <img src="../img/logo.jpg" alt="">
+    </header>
+    <div class="main">
+        <h1 class="title">ABOUT US</h1>
+        <p class="aboutus" style="text-align: justify;">
+            A professional high-tech enterprise which engaged in various types of chip electronic components R&D,production and sales.CKT is the brand of the company.Main products include all series of laminated SMD beads,inductors, wound chip inductors,diodes,field effect transistors and other kinds of electronic components.
+        </p>
+        <p class="aboutus more_info" style="text-align: justify;">
+            Products are widely used in communication equipment,computer,LED,security,consumer electronics,medical equipment,automotive electronics,smart grid and other fields,High quality,extensive experience in production,reasonable price,large quantities of spots,accurate delivery date, professional and efficient technical support enable us to win the support of customers at home and abroad.Our products are exported to Southeast Asia,India,the Middle East,Iran and other countries,obtain positive feedback from customers.
+        </p>
+        <a href="javascript:;" class="more">MORE ></a>
+        <!-- 产品中心 -->
+        <h1 class="title">PRODUCTS</h1>
+        <div class="ui-row-flex ui-whitespace">
+            <div class="ui-col ui-col en">
+            <img src="../img/products/A1.jpg" alt="">
+                <p>CD Power Inductor</p>
+            </div>
+            <div class="ui-col ui-col en">
+                <img src="../img/products/A2.jpg" alt="">
+                <p>Shielded CD Power Inductor</p>
+            </div>
+        </div>
+        <div class="ui-row-flex ui-whitespace">
+            <div class="ui-col ui-col en">
+                <img src="../img/products/A3.jpg" alt="">
+                <p>Wire Wound Ferrite Chip Inductor</p>
+            </div>
+            <div class="ui-col ui-col en">
+                <img src="../img/products/A4.jpg" alt="">
+                <p>Wire Wound Caramic Chip Inductor</p>
+            </div>
+        </div>
+        <div class="ui-row-flex ui-whitespace">
+            <div class="ui-col ui-col en">
+                <img src="../img/products/A5.jpg" alt="">
+                <p>Multilayer Ceramic Chip</p>
+            </div>
+            <div class="ui-col ui-col en">
+                <img src="../img/products/A6.jpg" alt="">
+                <p>Multilayer Ferrite Chip Inductor</p>
+            </div>
+        </div>
+        <div class="ui-row-flex ui-whitespace">
+            <div class="ui-col ui-col en">
+                <img src="../img/products/A7.jpg" alt="">
+                <p>Multilayer Ferrite Chip Bead</p>
+            </div>
+            <div class="ui-col ui-col en">
+                <img src="../img/products/A8.jpg" alt="">
+                <p>Multilayer High Current Ferrite Chip Bead</p>
+            </div>
+        </div>
+        <h1 class="title">CONTACT US</h1>
+        <div class="contact">
+            <p>Office：DuHui100 Apartment,Zhonghang Road,Futian District,shenzhen</p>
+            <p>Shop：Sun Asian electronics market 1st phase first floor ,Futian District,shenzhen</p>
+            <p>Office Tel：0755-82539839</p>
+            <p>Shop Tel：0755-61667388</p>
+            <p>Shop Tel：0755-61667388</p>
+            <p>QQ：757965197</p>
+            <p>Shop Tel：0755-61667388</p>
+            <p>P.C.：518031</p>
+            <p>E-mail：cktinc@163.com</p>
+            <p>WhatsApp：13612992966</p>
+            <p>Skype：yyyyangmi@sina.com</p>
+        </div>
+    </div>
+    <footer>
+        <p class="link">
+            <a href="http://szcktdzgs.hqew.com/" target="_blank">CKT HQEW</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://shop405034569.taobao.com/" target="_blank">CKT Enterprise TAOBAO</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://shop1468208734877.1688.com" target="_blank">CKT Alibaba</a>
+
+        </p>
+        <p class="lang">
+            <a href="index.html">中文</a>
+        </p>
+        <p class="copyright">
+            CopyRight 2016 All Right Reserved Shenzhen ChengKeTai Electronics co.,LTD
+        </p>
+    </footer>
+    <script src="js/frozenui-1.3.0/lib/zepto.min.js"></script>
+    <script src="js/frozenui-1.3.0/js/frozen.js"></script>
+    <script src="js/rem.js"></script>
+    <script>
+        var flag = 1;
+        $(".more").tap(function(){
+            $(".more_info").toggleClass('show');
+            if(flag == 1){
+                $(this).html("PACK UP ^");
+                flag = 0;
+            }else{
+                $(this).html("MORE >");
+                flag = 1;
+            }
+        });
+        //禁止复制和右键保存
+        document.oncontextmenu = new Function("event.returnValue=false");
+        document.onselectstart = new Function("event.returnValue=false");
+    </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	background-color: #fff;
+}
+header nav{
+	width: 100%;
+	position: relative;
+	vertical-align: middle;
+	background-color: #0a66bd;
+}
+#nav .current a {border-bottom: 3px solid #fff;}
+header nav ul{
+	width: 1000px;
+	margin:0 auto;
+	text-align: right;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+}
+header nav ul li{
+	font-size: 16px;
+	display: inline-block;
+	padding:0 20px;
+}
+header nav ul li a{color: #fff;}
+header nav ul li a:hover{border-bottom: 3px solid #fff;}
+header nav .language img{vertical-align: middle;}
+header .topbar{
+	font-family: 'Roboto', sans-serif;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #e7e8ed;
+    background: #f7f8fa;
+    padding-right: 20px;
+}
+header .topbar .barwrap{
+	width:1000px;
+	margin:0 auto;
+}
+header .topbar .welcome{
+	margin-left:8px;
+}
+header .language{
+	margin-right: 10px;
+}
+header .language a{
+	color: #53555a;
+	font-size: 15px;
+}
+header  .language a:hover{border-bottom: 1px solid #333;}
+.main{
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 125px 0 0 0;
+	margin-bottom: 50px!important;
+}
+.main .pro_show{
+	display: inline-block;
+	width: 900px;
+	padding: 0 25px;
+	box-sizing: border-box;
+}
+.main .pro_show .bread_nav{
+	padding: 8px 0;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 30px;
+	text-align: left;
+}
+.main .pro_show .current,.main .pro_show .currentSec{display: block!important;}
+.main .pro_show .show{
+	display: none;
+	text-align: center;
+}
+.main .pro_show .show img{width: 717px;}
+.main .pro_show .hasPage img,
+.main .pro_show .hasSecondNav .secContent{display: none;}
+.main .pro_show .hasPage .pageShow{display: inline-block!important;}
+.main .pro_show .show .pageNum{
+	margin-top: 15px;
+	box-sizing: content-box;
+}
+.main .pro_show .show .pageNum span{
+	padding: 5px;
+	cursor: pointer;
+}
+.main .pro_show .show .pageNumShow,.main .pro_show .show .pageNum span:hover{
+	color: #0a66bd;
+	border-bottom: 1px solid #0a66bd;
+}
+.contact_pendant{
+	position: fixed;
+	right: 0;
+	z-index: 999;
+}
+.skype img{
+	border-radius: 5px;
+	border: 1px solid #29a3db;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	background-color: #162631;
+	padding: 10px 0;
+	color: #6a8292;
+	/*bottom: 0;*/
+}
+footer .link li{display: inline-block;}
+footer .link li a{color:#6a8292;}
+footer .link li a:hover{
+	color:#fff;
+	border-bottom: 1px solid #fff;
+}
+footer .copyright{
+	padding: 10px 0;
+	font-size: 13px;
+}
+

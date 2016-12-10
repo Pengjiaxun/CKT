@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>深圳市成科泰电子有限公司</title>
+    <meta charset="utf-8">
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="icon" href="../img/logo.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/frozenui-1.3.0/css/frozen.css">
+</head>
+<body>
+    <header>
+        <img src="../img/logo.jpg" alt="">
+    </header>
+    <div class="main">
+        <h1 class="title">关于我们</h1>
+        <p class="aboutus">一家专业从事各类片式电子元器件研发、生产和销售的高新技术企业，公司有自主品牌CKT，主要产品包括全系列叠层贴片式磁珠、电感器、绕线片式电感器，同时配套经销贴片二三极管、场效应管等电子元件。</p>
+        <p class="aboutus more_info">
+            产品广泛应用于通讯、消费类电子、计算机、LED照明、安防、智能电网、医疗设备以及汽车电子等领域，可靠的品质、丰富的产品线、合理的价格、大批量的现货仓储、准确的交期、优质的服务、专业高效的技术支持使我们赢得了海内外广大客户的支持。公司产品远销东南亚，印度，中东，伊朗等国家，得到客户的信赖与大力支持。我们以顾客的需求为中心持续创新，与社会、环境和谐共处，同客户、员工的共赢进步。
+        </p>
+        <a href="javascript:;" class="more">了解更多 ></a>
+        <!-- 产品中心 -->
+        <h1 class="title">产品展示</h1>
+        <div class="ui-row-flex ui-whitespace">
+            <div class="ui-col ui-col">
+            <img src="../img/products/A1.jpg" alt="">
+                <p>CD非屏蔽功率电感</p>
+            </div>
+            <div class="ui-col ui-col">
+                <img src="../img/products/A2.jpg" alt="">
+                <p>CD屏蔽功率电感</p>
+            </div>
+        </div>
+        <div class="ui-row-flex ui-whitespace">
+            <div class="ui-col ui-col">
+                <img src="../img/products/A3.jpg" alt="">
+                <p>绕线普通电感</p>
+            </div>
+            <div class="ui-col ui-col">
+                <img src="../img/products/A4.jpg" alt="">
+                <p>绕线高频电感</p>
+            </div>
+        </div>
+        <div class="ui-row-flex ui-whitespace">
+            <div class="ui-col ui-col">
+                <img src="../img/products/A5.jpg" alt="">
+                <p>陶瓷体高频电感</p>
+            </div>
+            <div class="ui-col ui-col">
+                <img src="../img/products/A6.jpg" alt="">
+                <p>铁氧体低频电感</p>
+            </div>
+        </div>
+        <div class="ui-row-flex ui-whitespace">
+            <div class="ui-col ui-col">
+                <img src="../img/products/A7.jpg" alt="">
+                <p>普通铁氧体磁珠</p>
+            </div>
+            <div class="ui-col ui-col">
+                <img src="../img/products/A8.jpg" alt="">
+                <p>大电流磁珠</p>
+            </div>
+        </div>
+        <h1 class="title">联系我们</h1>
+        <div class="contact">
+            <p>总部：深圳市福田区中航路都会100大厦B座</p>
+            <p>门市部：深圳市福田区新亚洲电子市场一期一层</p>
+            <p>总部电话：0755-82539839</p>
+            <p>门市部电话：0755-61667388</p>
+            <p>传真：0755-61667389</p>
+            <p>QQ：757965197</p>
+            <p>微信公众号：CKTINC</p>
+            <p>邮编：518031</p>
+            <p>邮箱：cktinc@163.com</p>
+            <p>WhatsApp：13612992966</p>
+            <p>Skype：yyyyangmi@sina.com</p>
+        </div>
+    </div>
+    <footer>
+        <p class="link">
+            <a href="http://szcktdzgs.hqew.com/" target="_blank">CKT 华强电子网</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://shop405034569.taobao.com/" target="_blank">CKT 企业淘宝</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://shop1468208734877.1688.com" target="_blank">CKT 阿里巴巴</a>
+
+        </p>
+        <p class="lang">
+            <a href="index_en.html">English</a>
+        </p>
+        <p class="copyright">
+            © 2016 深圳市成科泰电子有限公司 版权所有
+        </p>
+    </footer>
+    <script src="js/frozenui-1.3.0/lib/zepto.min.js"></script>
+    <script src="js/frozenui-1.3.0/js/frozen.js"></script>
+    <script src="js/rem.js"></script>
+    <script>
+        var flag = 1;
+        $(".more").tap(function(){
+            $(".more_info").toggleClass('show');
+            if(flag == 1){
+                $(this).html("收起 ^");
+                flag = 0;
+            }else{
+                $(this).html("了解更多 >");
+                flag = 1;
+            }
+        });
+        //禁止复制和右键保存
+        document.oncontextmenu = new Function("event.returnValue=false");
+        document.onselectstart = new Function("event.returnValue=false");
+    </script>
+</body>
+</html>

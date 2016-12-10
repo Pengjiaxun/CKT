@@ -1,0 +1,17 @@
+﻿*{font-family:Arial,"Microsoft YaHei"; margin:0;padding:0;color:#000;}
+a{color:#fff;text-decoration:none;}
+html,body{min-height: 100%;font-size:0.8rem;}
+body{background-color: #f0f0f0;padding-bottom: 2.5rem;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix::after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    overflow: hidden;
+    font-size: 0;
+}
+em{color:#c60a1e;}
+.show{visibility: visible;}
+.hide{visibility: hidden;}

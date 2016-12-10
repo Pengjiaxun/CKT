@@ -1,0 +1,99 @@
+header{
+    background-color: #0a66bd;
+    text-align: center;
+    height: 2.5rem;
+}
+header img{
+    height: 2.5rem;
+}
+.main .title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    color: #3498db;
+    text-transform: uppercase;
+    position: relative;
+    padding: 10px;
+    margin: 0 0 20px;
+    text-align: center;
+}
+.main .title:before{
+    content: "";
+    position: absolute;
+    width: 280px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -140px;
+    height: 1px;
+    background: #ebebeb;
+}
+.main .title:after{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: #45aed6;
+}
+.aboutus{
+    padding: 0 15px;
+    font-size: 0.8rem;
+    text-indent: 2em;
+}
+.more_info{
+    display: none;
+}
+.show{display: block!important;}
+.more{
+    display: block;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 5px;
+    font-style: italic;
+    color: #999;
+}
+.ui-row-flex .ui-col{
+    padding: 5px;
+}
+.ui-row-flex .ui-col img{
+    width: 100%;
+}
+.ui-row-flex .ui-col p{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    background-color: #3a96ec;
+    padding: 5px;
+    position: relative;
+    top: -7px;
+    word-break: break-all;
+}
+.ui-row-flex .en p{
+    min-height: 44px;
+    word-break: break-word;
+    text-align: left;
+}
+.contact{
+    padding: 0 13px;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+footer{
+    display: block;
+    font-size: 0.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    background-color: #162631;
+}
+footer .link{
+    font-size: 0.7rem;
+    padding: 5px;
+}
+footer .link,footer .link a,footer .lang a,footer .copyright{color:#6a8292;}
+footer .copyright{
+    border-top: 1px solid #333;
+    padding: 5px;
+}
